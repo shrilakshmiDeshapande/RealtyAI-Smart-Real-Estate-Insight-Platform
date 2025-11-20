@@ -1,0 +1,25 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore data folder
+data/
+
+# Ignore model folders
+models/
+notebooks/models/
+models/with_regressors/
+models/without_regressors/
+
+# Ignore outputs
+results/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore Jupyter checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore CSV, PNG, joblib outputs in notebooks
+notebooks/*.csv
+notebooks/*.png
+notebooks/*.joblib
